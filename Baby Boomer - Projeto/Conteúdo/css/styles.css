@@ -1,0 +1,161 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+/* NAVBAR */
+
+#header, .navbar {
+  background-color: #112B3D;
+}
+
+#nav-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-brand {
+  margin-left: 10vh;
+  padding: 0;
+  color: #FFF;
+  font-weight: bolder;
+  margin-left: 85vh;
+}
+
+.navbar-expand-lg {
+  padding: 1.5rem .8rem;
+}
+
+/* LOGO-------CAMPO DE PESQUISA-------PERFIL */
+
+#logo{
+  width: 160px;
+  height: 100px;
+
+}
+
+.form-control{
+  width: 65vh;
+  border-radius: 8px;
+  margin-top: 5vh;
+  margin-left: 8vh;
+  height: 40px;
+}
+
+.btn{
+  color: #ffff;
+  background-color: #112B3D;
+  border: 1px solid #112B3D;
+  border-radius: 8px;
+  margin-left: 2vh;
+  width: 180px;
+  height: 40px;
+  margin-top: 5vh;
+}
+
+.btn:hover{
+  background-color: #ED8000;
+  border: 1px solid #ED8000;
+}
+
+.container{
+  margin-top: 15vh;
+}
+
+.bi{
+  margin-top: 5vh;
+  margin-left: 20vh;
+  color: #112B3D;
+}
+  
+/* CARROSSEL */
+
+.container-fluid {
+  padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider {
+  height: 120vh;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  background-color: #112b3d;
+  border: 2px solid #ffff;
+  width: 50px;
+  height: 80px;
+}
+
+/* COMO USAR O SITE */
+
+#comoUsar{
+  background-color: #112b3d;
+  height: 180vh;
+}
+
+h1{
+  color: #ffff;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: ;
+}
+
+#duvida{
+  height: 80vh;
+  margin-left: 30vh;
+}
+
+#video{
+  height: 50vh;
+  margin-left: 180px;
+}
+
+p{
+  color: #ffff;
+  font-size: 18px;
+  margin: 100px;
+  text-align: justify;
+}
+
+/* VIDEOS MAIS PESQUISADOS */
+
+
+
+#h1-maisPesquisados{
+  color: #112B3D;
+  text-align:left;
+  margin-left:100px ;
+  margin-top: 30px;
+}
+#video1{
+  height: 30vh; 
+}
+
+#videos{
+  color: #112B3D;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+
+
+/* FOOTER */
+
+footer{
+  background-color: #112B3D;
+  height: 30vh;
+}
+#h1-Footer{
+  font-size: 20px;
+}
+#txtFooter{
+  padding: 20px;
+}
+#h3-Footer{
+  font-size: 15px;
+  color: #ffff;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}

@@ -1,0 +1,108 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+/* CADASTRO */
+
+
+#logoCadastro{
+  width: 160px;
+  height: 100px;
+  margin-left: 60px;
+}
+
+#azul{
+  background-color: #112B3D;
+}
+
+/* parte do log-in */
+
+#h1-LogIn{
+  color: #112B3D;
+  text-align:left;
+  margin-top: 25vh;
+  font-weight: bolder;
+  font-size: 40px;
+  margin-left: 30px;
+}
+
+#h3-LogIn{
+  color: #112B3D;
+  font-weight: bolder;
+  font-size: 18px;
+  margin-left: 90px;
+}
+
+#botaoLogIn{
+  background: #ffff;
+  border: solid 2px #112B3D;
+  color: #112B3D;
+  font-weight: bolder;
+  width: 120px;
+  height: 50px;
+  border-radius: 10px;
+  margin-left: 180px;
+  margin-top: 30px;
+}
+
+#botaoLogIn:hover{
+  background: #112B3D;
+  color: #ffff;
+  font-weight: bolder;
+  
+}
+
+#imgLogIn{
+  margin-left: 120px;
+  height: 280px;
+  margin-top: 60px;
+ 
+}
+
+
+
+/* parte do cadastro */
+
+#h1-LogOut{
+  color: #ffff;
+  text-align:left;
+  margin-top: 25vh;
+  font-weight: bolder;
+  font-size: 40px;
+  margin-left: 100px;
+}
+
+#h3-LogOut{
+  color: #ffff;
+  font-weight: bolder;
+  font-size: 15px;
+  text-align: center;
+  margin-right: 50px;
+}
+#botaoLogOut{
+  background: #112B3D;
+  border: solid 1.5px #ffff;
+  color: #ffff;
+  width: 120px;
+  height: 50px;
+  border-radius: 10px;
+  margin-left: 200px;
+  margin-top: 30px;
+}
+#botaoLogOut:hover{
+  background: #ffff;
+  color: #112B3D;
+  font-weight: bolder;
+}
+#imgLogOut{
+  margin-left: 140px;
+  height: 280px;
+  margin-top: 60px;
+ 
+}
+
+.row{
+  width: 218.2vh;
+}

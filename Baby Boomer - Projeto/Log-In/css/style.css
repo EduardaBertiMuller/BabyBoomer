@@ -1,0 +1,93 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+
+
+
+/* CADASTRO */
+
+.alert{
+  background-color: #ED8000;
+  color: #ffff;
+}
+#txtAlert{
+  margin-left: 10px;
+}
+
+#logoCadastro{
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 60px;
+}
+
+#background{
+  background-color: #112B3D;
+  width: 85vh;
+  margin-top: -20px
+}
+
+#imgLogIn{
+  height: 60vh;
+  margin-top: 10vh;
+  margin-left: 20vh;
+  padding: 20px;
+}
+
+#h1-cadastro{
+  margin-top: 60px;
+  color: #112B3D;
+  font-weight: bolder;
+  margin-left: 20vh;
+}
+
+#info{
+  margin-left: 25vh;
+  margin-top: 20px;
+}
+
+#email, #senha{
+  padding: 10px;
+  margin-top: 20px;
+  background: #DDE1CD;
+  border-radius: 8px;
+  border: 1px solid #ffff;
+  width: 530px;
+  height: 50px;
+}
+
+#mudarMetodo{
+  width: 224px;
+  height: 43px;
+  margin-top: 20px;
+  border: 1px solid #ffff;
+  background-color: #DDE1CD;
+  color: #112B3D;
+  margin-left: 20px;
+  border-radius: 8px;
+}
+#criarConta{
+  width: 224px;
+  border-radius: 8px;
+  height: 43px;
+  margin-top: 20px;
+  border: 1px solid #ffff;
+  color: #DDE1CD;
+  background-color: #112B3D;
+  margin-left: 30px;
+}
+#criarConta:hover{
+  border: 1px solid #ffff;
+  background-color: #ED8000;
+  transition: 1s;
+}
+#mudarMetodo:hover{
+  border: 1px solid #ffff;
+  color: #DDE1CD;
+  background-color: #ED8000;
+  transition: 1s;
+
+}
